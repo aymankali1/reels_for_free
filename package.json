@@ -1,0 +1,22 @@
+{
+    "name": "reels_for_free",
+    "version": "1.0.0",
+    "type": "module",
+    "scripts": {
+        "generate": "tsx src/generate.ts",
+        "generate-speech": "tsx src/generate-speech.ts",
+        "status": "tsx src/status.ts",
+        "clean": "rm -rf output temp"
+    },
+    "dependencies": {
+        "@elevenlabs/elevenlabs-js": "^2.26.0",
+        "@google/generative-ai": "^0.21.0",
+        "dotenv": "^16.6.1",
+        "sharp": "^0.33.5"
+    },
+    "devDependencies": {
+        "@types/node": "^22.10.1",
+        "tsx": "^4.19.2",
+        "typescript": "^5.7.2"
+    }
+}

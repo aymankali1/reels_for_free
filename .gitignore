@@ -1,0 +1,50 @@
+# Dependencies
+node_modules
+.pnpm-debug.log*
+
+# Build outputs
+dist
+build
+.remotion
+
+# Generated content
+output
+temp
+final-video/public/output
+final-video/public/temp
+final-video/output
+
+# Environment variables
+.env
+.env.local
+
+# Media files
+*.mp4
+*.mp3
+*.wav
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+.cache
+

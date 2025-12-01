@@ -1,0 +1,124 @@
+{
+  "slides": [
+    {
+      "index": 0,
+      "type": "hook",
+      "text_to_tts": "Самый разыскиваемый хакер в истории. Его история изменила мир кибербезопасности.",
+      "z_image_prompt": "cinematic photograph of a solitary hooded hacker figure, centered, dramatically lit from behind creating a silhouette effect. The figure stands out clearly against a dark blurred background with subtle blue digital elements. Clear separation between subject and background. Superimposed at the TOP of the image in a bold, glitched font: 'КТО ОН?' -- moody, atmospheric, dark, cinematic, high contrast",
+      "original_image": "../temp/slide_0/original.png",
+      "object_image": "../temp/slide_0/object_output/original_rgba.png",
+      "background_image": "../temp/slide_0/background_output/original_rgba_reverse.png",
+      "pivot": {
+        "x": 247.5,
+        "y": 393.5
+      },
+      "dimensions": {
+        "width": 480,
+        "height": 640
+      },
+      "completed": true
+    },
+    {
+      "index": 1,
+      "type": "slide",
+      "text_to_tts": "Кевин Митник – цифровой призрак 80-х и 90-х. Он взламывал NORAD, Sun Microsystems, Motorola.",
+      "z_image_prompt": "dynamic close-up of a single vintage computer terminal screen displaying rapidly scrolling green code, with a subtle reflection of a shadowy, anonymous face on the screen. The terminal is the clear focal point, distinct against a softly blurred dark room background. -- retrofuturistic, intense, enigmatic, cinematic, dark ambient",
+      "original_image": "../temp/slide_1/original.png",
+      "object_image": "../temp/slide_1/object_output/original_rgba.png",
+      "background_image": "../temp/slide_1/background_output/original_rgba_reverse.png",
+      "pivot": {
+        "x": 253.5,
+        "y": 327
+      },
+      "dimensions": {
+        "width": 480,
+        "height": 640
+      },
+      "completed": true
+    },
+    {
+      "index": 2,
+      "type": "slide",
+      "text_to_tts": "ФБР охотилось за ним годами. Он менял личности, прятался, продолжая цифровые атаки.",
+      "z_image_prompt": "dramatic photograph of a single pair of hands typing rapidly on a glowing keyboard in a dark room, with a subtle sense of urgency and concealment. The hands and keyboard are the clear focal point, well-defined against a softly blurred, almost abstract background of city lights or digital patterns. -- intense, suspenseful, dark, cinematic, mysterious",
+      "original_image": "../temp/slide_2/original.png",
+      "object_image": "../temp/slide_2/object_output/original_rgba.png",
+      "background_image": "../temp/slide_2/background_output/original_rgba_reverse.png",
+      "pivot": {
+        "x": 224.5,
+        "y": 442
+      },
+      "dimensions": {
+        "width": 480,
+        "height": 640
+      },
+      "completed": true
+    },
+    {
+      "index": 3,
+      "type": "slide",
+      "text_to_tts": "В 1995 году, после долгих преследований, его наконец поймали. Он стал символом хакерского движения.",
+      "z_image_prompt": "close-up, high-contrast shot of a single pair of metallic handcuffs dramatically dropped onto a keyboard, capturing the moment of capture. The handcuffs are the clear main object, sharply focused against a softly blurred, dark desk background. -- stark, impactful, dramatic, cinematic, high contrast",
+      "original_image": "../temp/slide_3/original.png",
+      "object_image": "../temp/slide_3/object_output/original_rgba.png",
+      "background_image": "../temp/slide_3/background_output/original_rgba_reverse.png",
+      "pivot": {
+        "x": 267.5,
+        "y": 302.5
+      },
+      "dimensions": {
+        "width": 480,
+        "height": 640
+      },
+      "completed": true
+    },
+    {
+      "index": 4,
+      "type": "slide",
+      "text_to_tts": "От киберпреступника до консультанта. Его история – предупреждение и вдохновение. Хочешь узнать больше? Подпишись!",
+      "z_image_prompt": "professional and authoritative portrait of a solitary, well-dressed male figure (representing a cybersecurity expert), looking directly at the viewer with confidence. The figure is the clear focal point, well-defined against a clean, modern, slightly blurred background of abstract digital lines or a data center. -- confident, professional, modern, inspiring, cinematic",
+      "original_image": "../temp/slide_4/original.png",
+      "object_image": "../temp/slide_4/object_output/original_rgba.png",
+      "background_image": "../temp/slide_4/background_output/original_rgba_reverse.png",
+      "pivot": {
+        "x": 253,
+        "y": 343.5
+      },
+      "dimensions": {
+        "width": 480,
+        "height": 640
+      },
+      "completed": true
+    }
+  ],
+  "completed": true,
+  "scenario": {
+    "slides": [
+      {
+        "type": "hook",
+        "text_to_tts": "Самый разыскиваемый хакер в истории. Его история изменила мир кибербезопасности.",
+        "z_image_prompt": "cinematic photograph of a solitary hooded hacker figure, centered, dramatically lit from behind creating a silhouette effect. The figure stands out clearly against a dark blurred background with subtle blue digital elements. Clear separation between subject and background. Superimposed at the TOP of the image in a bold, glitched font: 'КТО ОН?' -- moody, atmospheric, dark, cinematic, high contrast"
+      },
+      {
+        "type": "slide",
+        "text_to_tts": "Кевин Митник – цифровой призрак 80-х и 90-х. Он взламывал NORAD, Sun Microsystems, Motorola.",
+        "z_image_prompt": "dynamic close-up of a single vintage computer terminal screen displaying rapidly scrolling green code, with a subtle reflection of a shadowy, anonymous face on the screen. The terminal is the clear focal point, distinct against a softly blurred dark room background. -- retrofuturistic, intense, enigmatic, cinematic, dark ambient"
+      },
+      {
+        "type": "slide",
+        "text_to_tts": "ФБР охотилось за ним годами. Он менял личности, прятался, продолжая цифровые атаки.",
+        "z_image_prompt": "dramatic photograph of a single pair of hands typing rapidly on a glowing keyboard in a dark room, with a subtle sense of urgency and concealment. The hands and keyboard are the clear focal point, well-defined against a softly blurred, almost abstract background of city lights or digital patterns. -- intense, suspenseful, dark, cinematic, mysterious"
+      },
+      {
+        "type": "slide",
+        "text_to_tts": "В 1995 году, после долгих преследований, его наконец поймали. Он стал символом хакерского движения.",
+        "z_image_prompt": "close-up, high-contrast shot of a single pair of metallic handcuffs dramatically dropped onto a keyboard, capturing the moment of capture. The handcuffs are the clear main object, sharply focused against a softly blurred, dark desk background. -- stark, impactful, dramatic, cinematic, high contrast"
+      },
+      {
+        "type": "slide",
+        "text_to_tts": "От киберпреступника до консультанта. Его история – предупреждение и вдохновение. Хочешь узнать больше? Подпишись!",
+        "z_image_prompt": "professional and authoritative portrait of a solitary, well-dressed male figure (representing a cybersecurity expert), looking directly at the viewer with confidence. The figure is the clear focal point, well-defined against a clean, modern, slightly blurred background of abstract digital lines or a data center. -- confident, professional, modern, inspiring, cinematic"
+      }
+    ]
+  }
+}
