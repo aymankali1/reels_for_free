@@ -2,28 +2,28 @@
   "slides": [
     {
       "type": "hook",
-      "text_to_tts": "Самый разыскиваемый хакер в истории. Его история изменила мир кибербезопасности.",
-      "z_image_prompt": "cinematic photograph of a solitary hooded hacker figure, centered, dramatically lit from behind creating a silhouette effect. The figure stands out clearly against a dark blurred background with subtle blue digital elements. Clear separation between subject and background. Superimposed at the TOP of the image in a bold, glitched font: 'КТО ОН?' -- moody, atmospheric, dark, cinematic, high contrast"
+      "text_to_tts": "Что, если твой дом – это не просто стены? Что, если он помнит все, но постоянно забывает и переписывает?",
+      "z_image_prompt": "cinematic photograph of a solitary, dusty, chipped enamel teapot, centered on an old gas stove in a dimly lit, rundown Soviet-era kitchen. The teapot has subtle, ghostly, translucent outlines of previous positions faintly visible around it, hinting at constant movement. The focus is solely on the teapot, clearly separated from the background. Superimposed at the TOP of the image in a bold, glitched, slightly distressed font: 'ИСТОРИЯ ПЕРЕЗАПИСАНА' -- moody, atmospheric, dark, analog horror, post-soviet aesthetic"
     },
     {
       "type": "slide",
-      "text_to_tts": "Кевин Митник – цифровой призрак 80-х и 90-х. Он взламывал NORAD, Sun Microsystems, Motorola.",
-      "z_image_prompt": "dynamic close-up of a single vintage computer terminal screen displaying rapidly scrolling green code, with a subtle reflection of a shadowy, anonymous face on the screen. The terminal is the clear focal point, distinct against a softly blurred dark room background. -- retrofuturistic, intense, enigmatic, cinematic, dark ambient"
+      "text_to_tts": "В Квартире-Архиве каждый предмет – живет своей жизнью. Твоя любимая кружка... она никогда не будет на одном месте больше часа.",
+      "z_image_prompt": "dramatic photograph of a single, worn, post-Soviet era slipper, centered, inexplicably hanging perfectly still in mid-air from a stained, concrete ceiling in a sparse, decaying apartment room. The slipper is the clear focal point, well-defined against the softly blurred, grunge texture of the ceiling and wall. -- enigmatic, cinematic, atmospheric, analog horror, post-soviet."
     },
     {
       "type": "slide",
-      "text_to_tts": "ФБР охотилось за ним годами. Он менял личности, прятался, продолжая цифровые атаки.",
-      "z_image_prompt": "dramatic photograph of a single pair of hands typing rapidly on a glowing keyboard in a dark room, with a subtle sense of urgency and concealment. The hands and keyboard are the clear focal point, well-defined against a softly blurred, almost abstract background of city lights or digital patterns. -- intense, suspenseful, dark, cinematic, mysterious"
+      "text_to_tts": "Не только предметы. Кажется, меняется и сама память. Фотографии на стене... кто этот человек?",
+      "z_image_prompt": "cinematic close-up of a solitary, vintage framed family photograph, centered on a peeling, discolored wallpapered wall. Within the photo, a person's face is subtly distorted with analog glitched lines, or a figure is faintly superimposed and partially transparent. The photograph itself is the dominant object, sharply in focus, contrasting with the blurred, textured background of the old wall. -- eerie, unsettling, analog horror, post-soviet."
     },
     {
       "type": "slide",
-      "text_to_tts": "В 1995 году, после долгих преследований, его наконец поймали. Он стал символом хакерского движения.",
-      "z_image_prompt": "close-up, high-contrast shot of a single pair of metallic handcuffs dramatically dropped onto a keyboard, capturing the moment of capture. The handcuffs are the clear main object, sharply focused against a softly blurred, dark desk background. -- stark, impactful, dramatic, cinematic, high contrast"
+      "text_to_tts": "Постоянное ощущение, что стены дышат, а мебель следит. Каждый час – новая версия реальности.",
+      "z_image_prompt": "atmospheric shot of a solitary, worn, floral-patterned armchair, centered in a dimly lit, cluttered corner of a post-Soviet apartment. The armchair casts an unnaturally long and distorted shadow that seems to subtly ripple on the wall. The armchair is clearly the main object, sharply defined against a softly blurred background of dusty books and old wallpaper. -- dark, eerie, analog horror, unsettling, post-soviet."
     },
     {
       "type": "slide",
-      "text_to_tts": "От киберпреступника до консультанта. Его история – предупреждение и вдохновение. Хочешь узнать больше? Подпишись!",
-      "z_image_prompt": "professional and authoritative portrait of a solitary, well-dressed male figure (representing a cybersecurity expert), looking directly at the viewer with confidence. The figure is the clear focal point, well-defined against a clean, modern, slightly blurred background of abstract digital lines or a data center. -- confident, professional, modern, inspiring, cinematic"
+      "text_to_tts": "Иногда ты просыпаешься... и не можешь понять, это твой дом, или чья-то чужая, постоянно переписываемая история?",
+      "z_image_prompt": "eerie cinematic shot of a solitary, faded, geometric patterned Soviet-era carpet (kovyor), centered on a wooden floor in an empty, dimly lit room. The carpet appears perfectly normal, but there are multiple faint, almost imperceptible ghosted outlines of identical carpets faintly visible around it on the floor, suggesting past positions. The carpet is the clear, distinct main object, set against a simple, softly blurred wooden floor and featureless wall. -- mysterious, atmospheric, analog horror, post-soviet."
     }
   ]
 }

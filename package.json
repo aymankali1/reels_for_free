@@ -5,8 +5,12 @@
     "scripts": {
         "generate": "tsx src/generate.ts",
         "generate-speech": "tsx src/generate-speech.ts",
+        "render-video": "cd final-video && pnpm sync && pnpm render",
+        "add-captions": "./add-captions.sh",
+        "add-music": "./add-music.sh",
+        "build-all": "pnpm generate && pnpm generate-speech && pnpm render-video && pnpm add-captions && pnpm add-music",
         "status": "tsx src/status.ts",
-        "clean": "rm -rf output temp"
+        "clean": "rm -rf output temp final-video/output captions/output captions/public/video"
     },
     "dependencies": {
         "@elevenlabs/elevenlabs-js": "^2.26.0",

@@ -20,13 +20,15 @@ final-video/output
 
 # Media files
 *.mp4
-*.mp3
 *.wav
 *.png
 *.jpg
 *.jpeg
 *.gif
 *.webp
+
+# Keep background music
+!music.mp3
 
 # Logs
 *.log
